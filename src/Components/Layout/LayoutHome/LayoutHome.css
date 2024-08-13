@@ -1,0 +1,149 @@
+.Content-Nose {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    --bg: #f4f4f4;
+    --contrast: #e2e0e0;
+    --grey: #f4f4f4;
+    position: relative;
+    padding: 10px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    border-bottom: 10px;
+    top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Content-Nose .Derecho,
+.Content-Nose .Izquierdo {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+.Content-Nose .Derecho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.ContectImg {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    --bg: #f4f4f4;
+    --contrast: #e2e0e0;
+    --grey: #f4f4f4;
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img{
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.Content-Nose .Izquierdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 35px; 
+}
+
+.Izquierdo .ContGrande {
+    width: 95%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 60%;
+}
+
+.TextGran{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ListText {
+    margin: 0;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ContListas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cardHome {
+    --bg: #f4f4f4;
+    --contrast: #e2e0e0;
+    --grey: #f4f4f4;
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+
+.ContListas .Lista1,
+.ContListas .Lista2,
+.ContListas .Lista3 {
+    width: 200px;
+    height: 210px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .ButtonContainer {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.ConocerMasButton {
+    background-color: #14ff72;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ConocerMasButton:hover {
+    background-color: #12d65d;
+} */

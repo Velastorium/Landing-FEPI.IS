@@ -1,0 +1,175 @@
+.container10 {
+    display: flex;
+    width: 100%;
+}
+
+.container11 {
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px; /* Espacio entre los contenedores */
+    flex: 0 0 350px; /* Cambia el tamaño de container1 */
+    max-width: 500px; /* Establece un ancho máximo si es necesario */
+}
+
+.container2 {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1; 
+}
+
+.sub-heading {
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    padding: 10px 15px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    line-height: 1; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+
+.link-divider {
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+
+.link.active {
+    color: transparent; /* Oculta el color del texto */
+    background: linear-gradient(45deg, #14ff72cb, #f5e300); /* Degradado de verde a amarillo */
+    -webkit-background-clip: text; /* Clip de fondo para que el texto se muestre con el gradiente */
+    -webkit-text-fill-color: transparent; /* Oculta el color del texto para que use el gradiente */
+}
+
+.link.active .icon1 {
+    color: #14ff72cb;
+}
+/* .link:hover {
+} */
+
+.content {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sub-heading {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #14ff72cb; 
+    font-size: 30px;
+}
+
+.sub-heading h5 {
+    font-size: 30px;
+    margin-left: 10px; 
+    color: #14ff72cb; 
+    font-weight: bold;
+}
+
+.sub-heading i {
+    font-size: 28px;
+    color: #fff; 
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link .icon1 {
+    margin-right: 8px;
+    font-size:32px;
+    font-weight: 900;
+    line-height:50px;
+    margin:0px 15px 0px 0px;
+    text-align:center;
+}
+
+
+.active {
+    font-weight: bold;
+    color: #14ff72cb;
+}
+
+.link-divider {
+    margin: 5px 0;
+}
+
+.themas {
+    max-width: 800px; /* Ejemplo de ancho máximo */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 10px; /* Espaciado interno */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .themas .title {
+    color: #333; /* Color del título principal */
+    font-size: 2.5rem; /* Tamaño del título principal */
+    margin-bottom: 10px; /* Espacio inferior */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    color: #666; /* Color de los subtítulos */
+    font-size: 1.2rem; /* Tamaño de los subtítulos */
+    font-weight: bold; /* Negrita para los subtítulos */
+    margin-bottom: 5px; /* Espacio inferior */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .parrafo {
+    color: #555; /* Color del texto párrafo */
+    font-size: 1.1rem; /* Tamaño del texto párrafo */
+    line-height: 1.6; /* Interlineado del texto párrafo */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .puntos {
+    color: #444; /* Color del texto de la lista */
+    font-size: 1.1rem; /* Tamaño del texto de la lista */
+    line-height: 1.6; /* Interlineado del texto de la lista */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin-left: 20px;
+  }
+  
+  .puntos li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    list-style-type: disc; /* Tipo de marcador (punto) */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .puntos li:last-child {
+    margin-bottom: 0; 
+  }
+  
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Ajusta según sea necesario */
+  }
+  
+  .fepi-image {
+    width: 300px;
+    height: auto;
+  }
+  

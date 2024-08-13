@@ -1,0 +1,64 @@
+.card-container {
+    width: 98%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-content {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
+    background-image: linear-gradient(90deg, #009929 0%, #ffff00 50%, #ffff00 50%, #009929 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: black;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+    }
+    
+    .card-image {
+        width: 50%;
+    }
+
+    .card-content {
+        width: 50%;
+    }
+
+    .card-content h3 {
+        font-size: 4em;
+    }
+
+    .card-content p {
+        font-size: 16px;
+    }
+}
