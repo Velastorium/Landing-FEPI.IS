@@ -2,148 +2,136 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 600px;
-    --bg: #f4f4f4;
-    --contrast: #e2e0e0;
-    --grey: #f4f4f4;
-    position: relative;
+    max-width: 1290px;
+    margin: 0 auto;
     padding: 10px;
-    background-color: var(--bg);
-    border-radius: 35px;
-    border-bottom: 10px;
-    top: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    border: 1px solid rgba(7, 7, 7, 0.12);
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .Content-Nose .Derecho,
 .Content-Nose .Izquierdo {
-    width: auto;
-    height: auto;
-    display: flex;
     flex: 1;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Content-Nose .Derecho {
+.Content-Nose .Izquierdo {
+    flex: 60%; 
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1;
+    justify-items: center;
+}
+
+.Content-Nose .Derecho {
+    flex: 40%; 
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .ContectImg {
     width: 100%;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 90%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    --bg: #f4f4f4;
-    --contrast: #e2e0e0;
-    --grey: #f4f4f4;
-    position: relative;
-    padding: 9px;
-    background-color: var(--bg);
-    border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-img{
-    max-width: 100%; 
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
 }
 
-.Content-Nose .Izquierdo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding: 10px;
-    border-radius: 35px; 
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 
 .Izquierdo .ContGrande {
-    width: 95%;
-    text-align: center;
-    box-sizing: border-box;
-    height: 60%;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.TextGran{
-    font-size: 18px;
+.TextGran {
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+    width: 700px;
+    text-align: center;
 }
 
 .ListText {
-    margin: 0;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    text-align: center;
-    height: 100%;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.ContListas {
+.Derecho .ContListas {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: end;
     gap: 20px;
-    height: auto;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding-bottom: 30px;
+    width: 100%;
 }
 
 .cardHome {
-    --bg: #f4f4f4;
-    --contrast: #e2e0e0;
-    --grey: #f4f4f4;
-    position: relative;
-    padding: 9px;
-    background-color: var(--bg);
-    border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  }
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    border: 1px solid rgba(7, 7, 7, 0.12);
+    width: 100%; 
+    max-width: 450px; 
+    margin: 0 auto; 
+}
 
 
-.ContListas .Lista1,
-.ContListas .Lista2,
-.ContListas .Lista3 {
-    width: 200px;
-    height: 210px;
-    border-radius: 10px;
-    flex-direction: column;
+.Lista {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
-/* .ButtonContainer {
-    margin-top: 10px;
-    padding-top: 10px;
+.iconD {
+    font-size: 120px;
+    color: #009929; 
+    transition: color 0.3s ease; 
 }
 
-.ConocerMasButton {
-    background-color: #14ff72;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.iconD:hover {
+    color: #005d00; /* Color más oscuro en hover */
 }
 
-.ConocerMasButton:hover {
-    background-color: #12d65d;
-} */
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .Content-Nose {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Content-Nose .Izquierdo,
+    .Content-Nose .Derecho {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .ContListas {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

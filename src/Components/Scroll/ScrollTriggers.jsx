@@ -253,10 +253,18 @@ function ServiceType() {
                         },
                         "& .details h6": {
                             color: "#000",
-                            fontSize: "1.2rem",
+                            fontSize: "1.5rem",
                             fontWeight: "bold",
                             marginBottom: "5px",
-                            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+                            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                            marginTop: "20px"
+                        },
+                        "& .details h2": {
+                            color: "#00aa4d",
+                            fontSize: "3.5rem",
+                            fontWeight: "bold",
+                            marginBottom: "5px",
+                            fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                         },
                     }}>
                         {sections.slice(0, 3).map((section, index) => (
@@ -384,10 +392,18 @@ function ServiceType() {
                         },
                         "& .details h6": {
                             color: "#000",
-                            fontSize: "1.2rem",
+                            fontSize: "2.2rem",
                             fontWeight: "bold",
                             marginBottom: "5px",
-                            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+                            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                            marginTop: "20px"
+                        },
+                        "& .details h2": {
+                            color: "#00aa4d",
+                            fontSize: "3.5rem",
+                            fontWeight: "bold",
+                            marginBottom: "5px",
+                            fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                         },
                     }}>
                         {sections.slice(3, 6).map((section, index) => (
@@ -457,6 +473,13 @@ function ServiceType() {
                             fontWeight: "bold",
                             marginBottom: "5px",
                             fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+                        },
+                        "& .details h2": {
+                            color: "#00aa4d",
+                            fontSize: "3.5rem",
+                            fontWeight: "bold",
+                            marginBottom: "5px",
+                            fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                         },
                     }}>
                         {sections.slice(6, 9).map((section, index) => (

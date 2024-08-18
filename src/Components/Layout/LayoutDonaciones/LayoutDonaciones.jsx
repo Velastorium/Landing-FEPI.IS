@@ -1,10 +1,12 @@
 import Title from "../../Title/Title";
-import "./LayoutDonaciones.css"
+import "./LayoutDonaciones.css";
 
-const LayputD = ({ title, subtitle, texto }) => {
+const LayoutD = ({ title, subtitle, texto,imgD,WidthD, align = "left"}) => {
+    const isLeftAligned = align === "left";
+
     return (
-        <div className="Content-D">
-            <div className="IzquierdoD">
+        <div className={`Content-D ${isLeftAligned ? "left-align" : "right-align"}`}>
+            <div className={`IzquierdoD ${isLeftAligned ? "text-left" : "text-right"}`}>
                 <div className="ContGrandeD">
                     <div className="TitleContD">
                         <Title title={title} />
@@ -12,17 +14,14 @@ const LayputD = ({ title, subtitle, texto }) => {
                     <p className="subtitleD">{subtitle}</p>
                     <p className="textoD">{texto}</p>
                 </div>
-
-                <div className="ContListasD">
-
-                </div>
             </div>
             <div className="DerechoD">
                 <div className="ContectImgD">
+                    <img src={imgD} />
                 </div>
             </div>
         </div>
     );
 }
 
-export default LayputD;
+export default LayoutD;

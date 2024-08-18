@@ -7,6 +7,9 @@
     height: 50%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 .title-content {
@@ -17,5 +20,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #009929;
+    background-color: #00aa4d;
 }

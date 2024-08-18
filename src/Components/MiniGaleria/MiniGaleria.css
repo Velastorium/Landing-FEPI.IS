@@ -3,21 +3,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    --bg: #f4f4f4;
-    --contrast: #e2e0e0;
-    --grey: #f4f4f4;
-    position: relative;
-    padding: 20px;
-    background-color: var(--bg);
-    border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    max-width: 100%; /* Ajusta este valor según sea necesario */
-    height: 900px; /* Altura fija de 600px */
-    overflow: hidden; /* Oculta el desbordamiento si es necesario */
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: center; 
-    padding-bottom: 30px;
+    background-color: #ffffff; 
+    border-radius: 20px;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    border: 1px solid rgba(7, 7, 7, 0.12);
+    max-width: 1400px;
+    width: 1290px; 
+    height: auto; 
+    overflow: hidden;
+    flex-direction: column; 
+    padding: 40px; 
+    margin: 0 auto; 
+
 }
 
 .lg-react-element {

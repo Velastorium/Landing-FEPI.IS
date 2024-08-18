@@ -7,12 +7,19 @@
 }
 
 .body-contact {
-    min-height: 105vh;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f0f0f0; /* Color de fondo opcional */
+    justify-content: space-between;
+    width: 1290px;
+    max-width: 1400px; 
+    margin: 0 auto; 
+    height: auto;
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
 }
 
 .container20 {
@@ -32,7 +39,7 @@
 }
 
 .left-side {
-    width: 40%; /* Ajusta según el diseño deseado */
+    width: 40%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,36 +47,39 @@
 }
 
 .right-side {
-    width: 60%; /* Ajusta según el diseño deseado */
+    width: 60%; 
     margin-left: 50px;
 }
 
 .below {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .below .details {
-    flex: 1 1 calc(33.333% - 20px); /* Cada detalle ocupa un tercio del ancho menos el espacio entre columnas */
+    flex: 1;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background: #f9f9f9;
+    background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(7, 7, 7, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
     text-align: center;
 }
 
 .below .details i {
     font-size: 30px;
     color: #009929;
-    margin-bottom: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .below .details .topic {
@@ -181,12 +191,13 @@
     flex-direction: column;
     gap: 10px;
     max-width: 600px;
+    height: 400px;
     padding: 20px;
     border-radius: 20px;
     position: relative;
     background-color: #fff;
     color: #1a1a1a;
-    border: 6px solid #fff;
+    border: 1px solid rgba(7, 7, 7, 0.12);
 }
 
 form {
@@ -298,6 +309,7 @@ form {
     border: none;
     outline: none;
     padding: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
