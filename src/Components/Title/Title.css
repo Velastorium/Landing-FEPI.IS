@@ -15,10 +15,6 @@
 .title-content {
     font-size: 5em; 
     font-weight: bold; 
-    line-height: 1.3em; 
-    /* background-image: linear-gradient(90deg, #009929 0%, #ffff00 50%, #ffff00 50%, #009929 100%); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #00aa4d;
+    color: #00aa4d;
 }

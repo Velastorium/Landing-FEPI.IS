@@ -4,33 +4,33 @@ import { RiBookLine, RiBuildingLine , RiCommunityLine } from 'react-icons/ri';
 
 const LayoutHome1 = ({ title, textgran, textn1, textn2, textn3 }) => {
     return (
-        <div className="Content-Nose">
-            <div className="Izquierdo">
-                <div className="ContGrande">
-                    <div className="TitlenoseCont">
+        <div className="Content-H">
+            <div className="IzquierdoH">
+                <div className="ContGrandeH">
+                    <div className="TitleH">
                         <Title title={title} />
                     </div>
-                    <p className="TextGran">{textgran}</p>
+                    <p className="TextGranH">{textgran}</p>
                 </div>
             </div>
-            <div className="Derecho">
-                <div className="ContListas">
-                    <div className="cardHome">
-                        <div className="Lista">
-                            <RiBookLine className="iconD" />
-                            <p className="ListText">{textn1}</p>
+            <div className="DerechoH">
+                <div className="ContListasH">
+                    <div className="cardHomeH">
+                        <div className="ListaH">
+                            <RiBookLine className="iconH" />
+                            <p className="ListTextH">{textn1}</p>
                         </div>
                     </div>
-                    <div className="cardHome">
-                        <div className="Lista">
-                            <RiBuildingLine className="iconD" />
-                            <p className="ListText">{textn2}</p>
+                    <div className="cardHomeH">
+                        <div className="ListaH">
+                            <RiBuildingLine className="iconH" />
+                            <p className="ListTextH">{textn2}</p>
                         </div>
                     </div>
-                    <div className="cardHome">
-                        <div className="Lista">
-                            <RiCommunityLine className="iconD" />
-                            <p className="ListText">{textn3}</p>
+                    <div className="cardHomeH">
+                        <div className="ListaH">
+                            <RiCommunityLine className="iconH" />
+                            <p className="ListTextH">{textn3}</p>
                         </div>
                     </div>
                 </div>
