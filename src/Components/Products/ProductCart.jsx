@@ -16,7 +16,6 @@ const ProductCart = (props) => {
                     $<span className="text-2xl font-medium">{price}</span>
                 </p>
             </div>
-
         </div>
     )
 }

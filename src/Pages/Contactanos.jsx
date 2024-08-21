@@ -3,7 +3,6 @@ import { useRef } from 'react';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
 import { FaMapMarkerAlt, FaPhone, FaClock } from 'react-icons/fa';
-import Footer from "../Components/Footer/Footer"
 import Title from "../Components/Title/Title";
 
 const Contactanos = () => {
@@ -162,9 +161,6 @@ const Contactanos = () => {
                     <p></p>
 
                 </div>
-            </div>
-            <div>
-                <Footer />
             </div>
         </div>
     );

@@ -5,14 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './Stores/Index.jsx';
 
-import { ItemsProvider } from './Api - Context/productsContext.jsx';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <ItemsProvider>
       <App />
-    </ItemsProvider>
   </Provider>
 );
 

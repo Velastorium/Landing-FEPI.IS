@@ -1,7 +1,5 @@
-import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import Footer from "../Footer/Footer"
 
 const Layout = () => {
   const statusTabCart = useSelector(store => store.cart.statusTab);
@@ -11,7 +9,6 @@ const Layout = () => {
         ${statusTabCart === false ? "" : "-translate-x-56"}`}>
         <Outlet />
       </main>
-      <Footer />
     </div>
   )
 }
