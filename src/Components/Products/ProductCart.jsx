@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCart } from '../../Stores/Cart';
 
 const ProductCart = (props) => {
     const carts = useSelector(store => store.cart.items);
