@@ -1,6 +1,6 @@
 import LayoutD from "../Components/Layout/LayoutDonaciones/LayoutDonaciones"
-import img1 from "../Components/image/D1.png"
-import img2 from "../Components/image/Donaciones.png"
+import img1 from "../Components/Image/Donaciones/D1.png"
+import img2 from "../Components/Image/Donaciones/Donaciones.png"
 const Donaciones = () => {
   return (
     <div>

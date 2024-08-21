@@ -22,17 +22,24 @@ import lgRotate from 'lightgallery/plugins/rotate';
 import "./MiniGaleria.css"
 import Title from "../Title/Title";
 import { Link } from 'react-router-dom';
-
+import once from "../../Components/Image/Galery/11.jpg"
+import diecisieta from "../../Components/Image/Galery/17.jpg"
+import cinco from "../../Components/Image/Galery/5.jpg"
+import seis from "../../Components/Image/Galery/6.jpg"
+import ocho from "../../Components/Image/Galery/8.jpg"
+import doce from "../../Components/Image/Galery/12.jpg"
+import quince from "../../Components/Image/Galery/15.jpg"
+import dieciseis from "../../Components/Image/Galery/16.jpg"
 
 const images = [
-  { src: "/11.jpg", alt: "1" },
-  { src: "/17.jpg", alt: "2", },
-  { src: "/5.jpg", alt: "3", },
-  { src: "/6.jpg", alt: "4", },
-  { src: "/8.jpg", alt: "5", },
-  { src: "/12.jpg", alt: "6", },
-  { src: "/15.jpg", alt: "7", },
-  { src: "/16.jpg", alt: "8", },
+  { src: once, alt: "1" },
+  { src: diecisieta, alt: "2", },
+  { src: cinco, alt: "3", },
+  { src: seis, alt: "4", },
+  { src: ocho, alt: "5", },
+  { src: doce, alt: "6", },
+  { src: quince, alt: "7", },
+  { src: dieciseis, alt: "8", },
 ]
 
 export function Gallery() {

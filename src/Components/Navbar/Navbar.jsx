@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RiMenuLine } from 'react-icons/ri';
-import FEPIlogo from '../image/FEPIlogo.png';
+import FEPIlogo from '../Image/Inicio/FEPIlogo.png';
 import './Navbar.css';
 
 const Navbar = () => {

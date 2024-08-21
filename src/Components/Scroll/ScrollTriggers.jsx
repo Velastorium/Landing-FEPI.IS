@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import Box from "@mui/material/Box";
-import nosotros from "../image/nuevologo.png"
-import historia from "../image/historia.png"
-import mision from "../image/mision.png"
-import vision from "../image/vision.png"
-import objetivos from "../image/objetivos.png"
-import objetivosS from "../image/objetivosS.png"
-import proposito from "../image/proposito.png"
-import estrategias from "../image/estrategias.png"
-import politicas from "../image/politicas.png"
+import nosotros from "../Image/Nosotros/nuevologo.png"
+import historia from "../Image/Nosotros/historia.png"
+import mision from "../Image/Nosotros/mision.png"
+import vision from "../Image/Nosotros/vision.png"
+import objetivos from "../Image/Nosotros/objetivos.png"
+import objetivosS from "../Image/Nosotros/objetivosS.png"
+import proposito from "../Image/Nosotros/proposito.png"
+import estrategias from "../Image/Nosotros/estrategias.png"
+import politicas from "../Image/Nosotros/politicas.png"
 
 gsap.registerPlugin(ScrollTrigger);
 

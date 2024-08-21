@@ -1,8 +1,8 @@
 import "./Footer.css"
-import fb from "../image/facebook.png"
-import insta from "../image/instagram.png"
-import wa from "../image/whatsapp.png"
-import yt from "../image/youtube.png"
+import fb from "../Image/Iconos/facebook.png"
+import insta from "../Image/Iconos/instagram.png"
+import wa from "../Image/Iconos/whatsapp.png"
+import yt from "../Image/Iconos/youtube.png"
 
 const Footer = () => {
     return (

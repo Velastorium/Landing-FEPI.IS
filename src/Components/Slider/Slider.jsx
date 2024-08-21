@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './Slider.css'; 
-import img1 from '../image/img1.jpg';
-import img2 from '../image/img2.jpg';
-import img3 from '../image/img3.jpg';
-import img4 from '../image/img4.jpg';
+import img1 from '../Image/Inicio/img1.jpg';
+import img2 from '../Image/Inicio/img2.jpg';
+import img3 from '../Image/Inicio/img3.jpg';
+import img4 from '../Image/Inicio/img4.jpg';
 
 const ImageSlider = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
